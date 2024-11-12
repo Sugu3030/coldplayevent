@@ -39,8 +39,7 @@
         }
 
         footer {
-            position: absolute;
-            bottom: 0;
+            
             width: 100%;
             margin-bottom: 20px
         }
@@ -53,12 +52,84 @@
         section {
             max-width: 1024px;
             margin: auto;
+padding-bottom:50px
         }
 
         h1 {
             font-size: 20px;
             color: #fff
         }
+.ticketBlock{
+width:32%;
+height:300px;
+padding:20px;
+background-color:#fff;
+color:#000
+
+
+
+}
+
+.ticketTitle{
+font-size:24px;
+text-transform:uppercase
+
+
+}
+
+.ticketPrice{
+margin-top:20px;
+font-size:72px;
+font-weight:800
+}
+
+.ticketDesc{
+font-size:18px;
+font-weight:300;
+line-height:21px;
+margin-top:20px;
+text-transform:uppercase
+}
+
+.ticketBtn{
+margin-top:20px
+}
+.ticketBtn button{
+width:160px;
+height:50px;
+text-transform:uppercase;
+font-size:16px;
+line-height:16px;
+background-color:red;
+color:#fff
+
+}
+
+.bgred{
+background-color:red;
+color:#fff
+}
+
+button.bgwhite{
+background-color:#fff;
+color:#000
+}
+.title{
+margin:auto;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+background-image:url('../assets/background/shapes_03.png');
+height:96px;
+width:306px;
+background-size:cover;
+font-size:72px;
+line-height:72px;
+font-weight:800
+}
+}
+
+
     </style>
 </head>
 
@@ -79,7 +150,31 @@
         </header>
 
         <section>
-            <h1>Tickets</h1>
+            <div class="title">Tickets</div>
+<table width="100%">
+<td class="ticketBlock">
+<div class="ticketTitle">Standard <br/>tickets</div>
+<div class="ticketPrice">$156</div>
+<div class="ticketDesc">access TO MAIN<br/>DANCEFLOOR<br/>2 BARS ZONES<br/>sanitary areas<br/>MORE FEATURES SOON
+<div class="ticketBtn"><button>Buy Now</button></div>
+</td>
+
+</td>
+<td class="ticketBlock bgred">
+
+<div class="ticketTitle">Standard <br/>tickets</div>
+<div class="ticketPrice">$156</div>
+<div class="ticketDesc">access TO MAIN<br/>DANCEFLOOR<br/>2 BARS ZONES<br/>sanitary areas<br/>MORE FEATURES SOON
+<div class="ticketBtn"><button class="bgwhite">Buy Now</button></div>
+</td>
+<td class="ticketBlock">
+<div class="ticketTitle">Standard <br/>tickets</div>
+<div class="ticketPrice">$156</div>
+<div class="ticketDesc">access TO MAIN<br/>DANCEFLOOR<br/>2 BARS ZONES<br/>sanitary areas<br/>MORE FEATURES SOON
+<div class="ticketBtn"><button>Buy Now</button></div>
+
+</td>
+</table>
         </section>
 
         <footer>
