@@ -1,0 +1,301 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+   
+    height: 100%;
+    font-family: "Jost", sans-serif;
+    background-color: #353535;
+}
+
+.bodybg{
+   
+    background-image: url('assets/background/background_01.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 100%;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    padding-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+table {
+    padding: 0;
+    border: 0;
+    color: #fff;
+    margin: auto
+}
+
+table tr td {
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+footer {
+
+    width: 100%;
+    margin-bottom: 30px
+}
+
+.copyright {
+    font-size: 12px;
+    padding: 20px 0 20px 0
+}
+
+section {
+    max-width: 1024px;
+    margin: auto;
+    padding-bottom: 50px
+}
+.colmelem{
+    margin-top:30px
+}
+
+h1 {
+    font-size: 20px;
+    color: #fff
+}
+
+.clip {
+    z-index: 0;
+    background-color: transparent;
+    margin-top: 21px;
+    width: 55%;
+    margin-right: -10000px;
+    left: 15%;
+    position: absolute
+}
+.clip img{
+    width: 100%;
+}
+
+.clip_text {
+    z-index: 4;
+
+    background-color: transparent;
+    font-size: 130px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 154px;
+    font-family: 'Jost' sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    position: relative;
+    margin-top: 47px;
+    width: 100%;
+}
+
+.eventDate {
+    z-index: 9;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 33px;
+    letter-spacing: 5px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.eventSubtitle {
+    Z-INDEX: 9;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+}
+
+.ticketBlock {
+    width: 32%;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000
+}
+
+.ticketTitle {
+    font-size: 24px;
+    text-transform: uppercase
+}
+
+.ticketPrice {
+    margin-top: 20px;
+    font-size: 52px;
+    font-weight: 800
+}
+
+.ticketDesc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 20px;
+    text-transform: uppercase
+}
+
+.ticketBtn {
+    margin-top: 20px
+}
+
+.ticketBtn button {
+    width: 160px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: red;
+    color: #fff
+}
+
+.bgred {
+    background-color: red;
+    color: #fff
+}
+
+button.bgwhite {
+    background-color: #fff;
+    color: #000
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    background-image: url('assets/background/shapes_03.png');
+    height: 96px;
+    width: 360px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.title h1{
+    font-size: 51px;
+    line-height: 75px;
+    margin: 0;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    
+}
+
+.title p{
+    font-size: 24px;
+    line-height: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.formSection{
+    width:600px;
+    margin:0 auto
+}
+
+.formSection p{
+    color:#fff;
+    font-size:14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.formSection .inputText{
+    display: block;
+    height: 50px;
+    padding:10px;
+    border:1px solid grey;
+    background-color: #000;
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 100%;
+}
+
+
+.formSection .inputArea{
+    display: block;
+    height: 150px;
+    padding:10px;
+    border:1px solid grey;
+    background-color: #000;
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 100%;
+}
+
+.tableMedia{
+    border:0;
+    padding:0;
+    width:600px;
+    margin-top:30px
+}
+
+.tableMedia tr td.redBlock {
+    background-color: red;
+    opacity: 0.5;
+}
+
+.tableMedia tr td img{
+    width:100%
+}
+
+.infoPage{
+    width:800px;
+    margin:0 auto;
+    margin-top:30px
+
+}
+
+.infoPage img{
+    width:100%
+}
+
+.subHeading{
+    background-image: url('assets/background/line.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    color:#fff;
+    font-size:25px;
+    text-transform: uppercase;
+    width:400px;
+    height:80px; 
+    text-align: center;
+    line-height: 80px;
+     margin: auto;
+     font-weight: 400;
+
+
+}
+
+.infoText{
+    margin:30px auto;
+    line-height: 30px;
+    
+}
+
+.infoText p{
+    color:#fff;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+
+.infoText table{
+    border:0;
+    width:800px;
+
+}
